@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+}
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+.navbar{
+    height: 10vh;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+.navbar-right{
+    gap: 2rem;
+}
+
+.hero-section{
+    height: 90vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgjG0l2Jb4k04VU9SCs_6H-PCnptPzNzC9gg&s");
+}
+
+.services{
+    height: 90vh;
+    justify-content: space-around;
+}
+
+.services-img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.icons{
+    border-color: yellow;
+    border-radius: 50%;
+}
+
+.hero-button{
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background-color: orange;
+    border-radius: 2rem;
+    width: 200px;
+}
+
+.icons{
+    font-weight: 400;
+}
+
+.icons:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.after-services{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://cdn.prod.website-files.com/5f55ff47b6d23a11cb496a69/64f5b96cb2c136cd7e4e869d_64522f9dba3a5829625b3148_pexels-edmond-dante%CC%80s-8555432-min%20(1)%20(1).jpg");
+    background-size: cover;
+}
+
+.btn1:hover{
+    cursor: pointer;
+    background-color: orange;
+}
+
+.btn2:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 3px solid orange;
+}
+
+input{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+
+}
+
+textarea{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+
+}
